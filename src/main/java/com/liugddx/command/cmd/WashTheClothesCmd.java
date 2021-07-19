@@ -1,4 +1,4 @@
-package com.liugddx.command;
+package com.liugddx.command.cmd;
 
 /**
  * <p>@ClassName WashTheClothesCmd</p>
@@ -8,7 +8,7 @@ package com.liugddx.command;
  * @version 1.0
  * @date 2021/7/17 21:29
  */
-public class WashTheClothesCmd implements ICmd{
+public class WashTheClothesCmd implements ICmd {
 
     private final WashingMachine  washingMachine= new WashingMachine();
 

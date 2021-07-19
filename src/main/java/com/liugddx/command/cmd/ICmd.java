@@ -1,4 +1,4 @@
-package com.liugddx.command;
+package com.liugddx.command.cmd;
 
 /**
  * <p>@ClassName ICmd</p>

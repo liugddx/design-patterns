@@ -1,4 +1,6 @@
-package com.liugddx.command;
+package com.liugddx.command.invoker;
+
+import com.liugddx.command.cmd.ICmd;
 
 /**
  * <p>@ClassName HusbandInvoker</p>
@@ -11,10 +13,10 @@ package com.liugddx.command;
 public interface Invoker {
 
     /**
-     * 获取下一个执行器
-     * @return
+     * 增加命令
+     * @param cmd
      */
-    Invoker getNext();
+    void add(ICmd cmd);
 
     /**
      * 设置下一个执行器
