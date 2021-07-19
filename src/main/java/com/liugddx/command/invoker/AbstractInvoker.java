@@ -1,6 +1,7 @@
 package com.liugddx.command.invoker;
 
 import com.liugddx.command.cmd.ICmd;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,7 +16,7 @@ public abstract class AbstractInvoker implements Invoker {
 
     protected Integer order = 0;
 
-    protected List<ICmd> allCmd;
+    protected final List<ICmd> allCmd = new ArrayList<>();
 
     protected Invoker next;
 
